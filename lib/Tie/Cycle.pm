@@ -1,4 +1,4 @@
-package Acme::GILLIGAN::Utils;
+package Tie::Cycle;
 
 use 5.006;
 use strict;
@@ -6,7 +6,7 @@ use warnings FATAL => 'all';
 
 =head1 NAME
 
-Acme::GILLIGAN::Utils - The great new Acme::GILLIGAN::Utils!
+Tie::Cycle - The great new Tie::Cycle!
 
 =head1 VERSION
 
@@ -14,7 +14,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.01';
 
 
 =head1 SYNOPSIS
@@ -23,9 +23,9 @@ Quick summary of what the module does.
 
 Perhaps a little code snippet.
 
-    use Acme::GILLIGAN::Utils;
+    use Tie::Cycle;
 
-    my $foo = Acme::GILLIGAN::Utils->new();
+    my $foo = Tie::Cycle->new();
     ...
 
 =head1 EXPORT
@@ -35,20 +35,11 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =head1 SUBROUTINES/METHODS
 
-=head2 sum
-
-Numerically sums the arg list and return result
+=head2 function1
 
 =cut
 
-sub sum {
-  no warnings 'numeric';
-  my (@nums) = @_;
-  
-  my $total;
-  $total += $_ foreach (@nums);
-  
-  return $total;
+sub function1 {
 }
 
 =head2 function2
@@ -64,8 +55,8 @@ Paul Cantalupo, C<< <pcantalupo at gmail.com> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-acme-gilligan-utils at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Acme-GILLIGAN-Utils>.  I will be notified, and then you'll
+Please report any bugs or feature requests to C<bug-. at rt.cpan.org>, or through
+the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=.>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
 
@@ -75,7 +66,7 @@ automatically be notified of progress on your bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Acme::GILLIGAN::Utils
+    perldoc Tie::Cycle
 
 
 You can also look for information at:
@@ -84,19 +75,19 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-GILLIGAN-Utils>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=.>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/Acme-GILLIGAN-Utils>
+L<http://annocpan.org/dist/.>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/Acme-GILLIGAN-Utils>
+L<http://cpanratings.perl.org/d/.>
 
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/Acme-GILLIGAN-Utils/>
+L<http://search.cpan.org/dist/./>
 
 =back
 
@@ -147,4 +138,4 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Acme::GILLIGAN::Utils
+1; # End of Tie::Cycle

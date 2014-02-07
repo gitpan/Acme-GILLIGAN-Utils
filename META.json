@@ -28,6 +28,10 @@
    "provides" : {
       "Acme::GILLIGAN::Utils" : {
          "file" : "lib/Acme/GILLIGAN/Utils.pm",
+         "version" : "0.02"
+      },
+      "Tie::Cycle" : {
+         "file" : "lib/Tie/Cycle.pm",
          "version" : "0.01"
       }
    },
@@ -37,5 +41,5 @@
          "http://www.perlfoundation.org/artistic_license_2_0"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
